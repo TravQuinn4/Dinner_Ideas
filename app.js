@@ -16,7 +16,6 @@
       const res = await fetch("dishes.json");
       if (!res.ok) throw new Error("Failed to load dishes.json");
       DISHES = await res.json();
-      console.log(DISHES);
     } catch (err) {
       console.error("Error loading dishes:", err);
       DISHES = []; // fallback to empty if load fails
