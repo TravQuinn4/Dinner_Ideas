@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "chicken-teriyaki",
+    "name": "Chicken Teriyaki",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken thigh",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "mirin",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "spring onion",
+        "qty": 1,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "beef-rendang",
+    "name": "Beef Rendang",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "beef",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "item": "rendang paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "thai-green-curry",
+    "name": "Thai Green Curry",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "green curry paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "rice noodles",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "tofu",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "bean sprouts",
+        "qty": 40,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "ramen",
+    "name": "Ramen",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "noodles",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "stock",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "spring onion",
+        "qty": 1,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "rice",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "beef mince",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "carrot",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "spinach",
+        "qty": 60,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "pho",
+    "name": "Vietnamese Pho",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "rice noodles",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "beef slices",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "stock",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "item": "bean sprouts",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "herbs",
+        "qty": 10,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "sweet-sour-pork",
+    "name": "Sweet & Sour Pork",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "pork",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "bell pepper",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "pineapple",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "general-tsos-chicken",
+    "name": "General Tso’s Chicken",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken thigh",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "cornstarch",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "katsu-curry",
+    "name": "Chicken Katsu Curry",
+    "tags": [
+      "asian"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "breadcrumbs",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "item": "curry sauce",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "item": "rice",
+        "qty": 90,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "greek-salad",
+    "name": "Greek Salad",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "tomato",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "cucumber",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "feta",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "olives",
+        "qty": 30,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "chicken-souvlaki",
+    "name": "Chicken Souvlaki",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "pita bread",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "tzatziki",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "eggs",
+        "qty": 2,
+        "unit": "whole"
+      },
+      {
+        "item": "tomatoes",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "bell pepper",
+        "qty": 0.5,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "paella",
+    "name": "Seafood Paella",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "rice",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "shrimp",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "mussels",
+        "qty": 4,
+        "unit": "pcs"
+      },
+      {
+        "item": "peas",
+        "qty": 40,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "falafel-wrap",
+    "name": "Falafel Wrap",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "falafel",
+        "qty": 3,
+        "unit": "pcs"
+      },
+      {
+        "item": "pita bread",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "hummus",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "item": "salad",
+        "qty": 50,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "aubergine",
+        "qty": 0.25,
+        "unit": "whole"
+      },
+      {
+        "item": "courgette",
+        "qty": 0.25,
+        "unit": "whole"
+      },
+      {
+        "item": "bell pepper",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "tomato",
+        "qty": 1,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "pizza base",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "tomato sauce",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "mozzarella",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "item": "basil",
+        "qty": 5,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "pasta-carbonara",
+    "name": "Pasta Carbonara",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "spaghetti",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "parmesan",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "pancetta",
+        "qty": 50,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "caprese-salad",
+    "name": "Caprese Salad",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "tomato",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "mozzarella",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "item": "basil",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "item": "olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "tags": [
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "item": "aubergine",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "beef mince",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "tomato sauce",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "béchamel",
+        "qty": 60,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "beef-stroganoff",
+    "name": "Beef Stroganoff",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "beef",
+        "qty": 160,
+        "unit": "g"
+      },
+      {
+        "item": "mushrooms",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "sour cream",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "egg noodles",
+        "qty": 90,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd’s Pie",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "lamb mince",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "carrot",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "peas",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "potatoes",
+        "qty": 250,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "mac-cheese",
+    "name": "Mac & Cheese",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "macaroni",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "cheddar",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "item": "milk",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "item": "butter",
+        "qty": 10,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "chili-con-carne",
+    "name": "Chili Con Carne",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "beef mince",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "kidney beans",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "tomatoes",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "chili powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "lasagna",
+    "name": "Lasagna",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "lasagna sheets",
+        "qty": 3,
+        "unit": "pcs"
+      },
+      {
+        "item": "beef mince",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "tomato sauce",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "béchamel",
+        "qty": 60,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "bbq-ribs",
+    "name": "BBQ Ribs",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "pork ribs",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "item": "bbq sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "chicken-pot-pie",
+    "name": "Chicken Pot Pie",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken breast",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "carrot",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "peas",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "pastry",
+        "qty": 1,
+        "unit": "sheet"
+      }
+    ]
+  },
+  {
+    "id": "meatloaf",
+    "name": "Meatloaf",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "beef mince",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "breadcrumbs",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "egg",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "onion",
+        "qty": 0.25,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "fried-chicken",
+    "name": "Fried Chicken",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "chicken drumstick",
+        "qty": 2,
+        "unit": "pcs"
+      },
+      {
+        "item": "flour",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "item": "oil",
+        "qty": 200,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "burger",
+    "name": "Classic Beef Burger",
+    "tags": [
+      "comfort"
+    ],
+    "ingredients": [
+      {
+        "item": "beef patty",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "bun",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "cheddar",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "lettuce",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "tomato",
+        "qty": 0.5,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "lentil-dahl",
+    "name": "Lentil Dahl",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "red lentils",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "garlic",
+        "qty": 1,
+        "unit": "clove"
+      },
+      {
+        "item": "ginger",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "item": "stock",
+        "qty": 250,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "stuffed-peppers",
+    "name": "Stuffed Peppers",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "bell pepper",
+        "qty": 1,
+        "unit": "whole"
+      },
+      {
+        "item": "rice",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "item": "tomato sauce",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "cheddar",
+        "qty": 20,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "vegan-chili",
+    "name": "Vegan Chili",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "kidney beans",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "black beans",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "tomatoes",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "chili powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    ]
+  },
+  {
+    "id": "veggie-burger",
+    "name": "Veggie Burger",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "veggie patty",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "bun",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "lettuce",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "tomato",
+        "qty": 0.5,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "miso-soup",
+    "name": "Miso Soup",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "miso paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "tofu",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "seaweed",
+        "qty": 5,
+        "unit": "g"
+      },
+      {
+        "item": "spring onion",
+        "qty": 1,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "gnocchi-pesto",
+    "name": "Gnocchi Pesto",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "gnocchi",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "item": "pesto",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "item": "peas",
+        "qty": 60,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "veggie-curry",
+    "name": "Vegetable Curry",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "mixed vegetables",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "item": "coconut milk",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "item": "curry paste",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "ratatouille-pasta",
+    "name": "Ratatouille Pasta",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "pasta",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "aubergine",
+        "qty": 0.25,
+        "unit": "whole"
+      },
+      {
+        "item": "courgette",
+        "qty": 0.25,
+        "unit": "whole"
+      },
+      {
+        "item": "tomato",
+        "qty": 1,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "pumpkin-soup",
+    "name": "Pumpkin Soup",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "pumpkin",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "cream",
+        "qty": 30,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "tofu-stirfry",
+    "name": "Tofu Stir-fry",
+    "tags": [
+      "vegetarian"
+    ],
+    "ingredients": [
+      {
+        "item": "tofu",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "mixed veg",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "item": "rice",
+        "qty": 80,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "caesar-salad",
+    "name": "Caesar Salad",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "romaine lettuce",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "croutons",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "item": "parmesan",
+        "qty": 15,
+        "unit": "g"
+      },
+      {
+        "item": "caesar dressing",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "tuna-pasta",
+    "name": "Tuna Pasta",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "pasta",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "item": "tuna (can)",
+        "qty": 0.5,
+        "unit": "can"
+      },
+      {
+        "item": "sweetcorn",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "item": "mayo",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "omelette",
+    "name": "Omelette",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "eggs",
+        "qty": 2,
+        "unit": "whole"
+      },
+      {
+        "item": "cheese",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "item": "spinach",
+        "qty": 30,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "frittata",
+    "name": "Frittata",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "eggs",
+        "qty": 2,
+        "unit": "whole"
+      },
+      {
+        "item": "potato",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "item": "onion",
+        "qty": 0.5,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "tacos",
+    "name": "Beef Tacos",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "beef mince",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "taco shells",
+        "qty": 3,
+        "unit": "pcs"
+      },
+      {
+        "item": "lettuce",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "tomato",
+        "qty": 0.5,
+        "unit": "whole"
+      }
+    ]
+  },
+  {
+    "id": "quesadilla",
+    "name": "Quesadilla",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "tortilla",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "cheddar",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "beans",
+        "qty": 60,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "sandwich",
+    "name": "Ham & Cheese Sandwich",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "bread slices",
+        "qty": 2,
+        "unit": "pcs"
+      },
+      {
+        "item": "ham",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "item": "cheddar",
+        "qty": 30,
+        "unit": "g"
+      },
+      {
+        "item": "lettuce",
+        "qty": 20,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "stirfry-noodles",
+    "name": "Quick Stir-fry Noodles",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "egg noodles",
+        "qty": 80,
+        "unit": "g"
+      },
+      {
+        "item": "mixed veg",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "item": "soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "salmon-salad",
+    "name": "Salmon Salad",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "salmon fillet",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "item": "lettuce",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "item": "cucumber",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "yogurt dressing",
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    ]
+  },
+  {
+    "id": "avocado-toast",
+    "name": "Avocado Toast",
+    "tags": [
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "item": "bread slice",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "item": "avocado",
+        "qty": 0.5,
+        "unit": "whole"
+      },
+      {
+        "item": "egg",
+        "qty": 1,
+        "unit": "whole"
+      }
+    ]
+  }
+]

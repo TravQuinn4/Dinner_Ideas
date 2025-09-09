@@ -1,0 +1,265 @@
+/*
+  Dinner Planner — styles.css
+  Modern, responsive, accessible styling with light/dark support.
+*/
+
+/* =====================
+   Design tokens
+   ===================== */
+:root {
+  --bg: #0b0c0f;               /* fallback before light sets in */
+  --card: #111319;
+  --text: #e7e9ee;
+  --muted: #a9b0be;
+  --border: #242837;
+  --primary: #6ee7b7;          /* mint */
+  --primary-contrast: #0b1220;
+  --shadow: 0 10px 30px rgba(0,0,0,0.25);
+
+  --radius: 16px;
+  --radius-sm: 12px;
+  --space-1: 6px;
+  --space-2: 10px;
+  --space-3: 14px;
+  --space-4: 18px;
+  --space-5: 24px;
+  --space-6: 32px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f7f8fb;
+    --card: #ffffff;
+    --text: #0e1222;
+    --muted: #5a6376;
+    --border: #e6e8ee;
+    --primary: #0ea5e9;        /* sky */
+    --primary-contrast: #ffffff;
+    --shadow: 0 10px 24px rgba(9, 16, 31, 0.08);
+  }
+}
+
+/* =====================
+   Base
+   ===================== */
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 10% -10%, rgba(14,165,233,0.08), transparent 50%),
+              radial-gradient(900px 700px at 110% -20%, rgba(110,231,183,0.08), transparent 50%),
+              var(--bg);
+  line-height: 1.4;
+}
+
+main, header, section { width: min(1100px, 92vw); margin: 0 auto; }
+
+/* =====================
+   Header / toolbar
+   ===================== */
+header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: saturate(1.2) blur(10px);
+  background: color-mix(in oklab, var(--bg), transparent 20%);
+  border-bottom: 1px solid var(--border);
+  padding: var(--space-5) 0 var(--space-4);
+  z-index: 50;
+}
+
+header h1 {
+  margin: 0 0 var(--space-3) 0;
+  font-size: clamp(26px, 3vw, 34px);
+  letter-spacing: -0.02em;
+}
+
+.row { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; }
+label { font-size: 0.95rem; color: var(--muted); }
+
+/* =====================
+   Form controls
+   ===================== */
+select, input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  min-width: 90px;
+  outline: none;
+  transition: box-shadow 160ms ease, border-color 160ms ease, transform 80ms ease;
+}
+
+#people { width: 72px !important; }
+
+select:focus-visible, input[type="number"]:focus-visible {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary), transparent 80%);
+}
+
+/* =====================
+   Buttons
+   ===================== */
+button {
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 80ms ease, box-shadow 160ms ease, background-color 160ms ease, opacity 160ms ease;
+  box-shadow: var(--shadow);
+}
+
+button:active { transform: translateY(1px) scale(0.99); }
+button:disabled { opacity: 0.5; cursor: not-allowed; box-shadow: none; }
+
+button.primary { background: var(--primary); color: var(--primary-contrast); }
+
+button.ghost {
+  background: color-mix(in oklab, var(--card), transparent 10%);
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+
+button:hover { filter: brightness(1.02); }
+button.ghost:hover { background: color-mix(in oklab, var(--card), white 2%); }
+
+.spacer { flex: 1; }
+.small { margin-top: var(--space-2); font-size: 0.9rem; color: var(--muted); }
+
+/* =====================
+   Grid of cards (meals & per-meal ingredients)
+   ===================== */
+.grid {
+  display: grid;
+  /* Use auto-fill so columns stay evenly spaced and don't stretch weirdly */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+  padding: var(--space-5) 0;
+  align-items: start;            /* prevent equal-height stretching that makes cards "connect" */
+  justify-items: stretch;        /* cards fill their column width neatly */
+  grid-auto-rows: minmax(160px, auto); /* consistent minimum height, grows as needed */
+}
+
+/* Make sure each direct card starts at the top of its grid track */
+.grid > .card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  /* Remove forced stretching; rely on grid-auto-rows for baseline height */
+  min-height: 0;
+  width: auto;
+}
+
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-height: 140px; /* ensures consistent size without linking items visually */
+}
+
+.card h3, .card h2 { margin: 0 0 var(--space-2) 0; font-size: 1.1rem; }
+
+.title-row { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); margin-bottom: var(--space-2); }
+
+/* Dish row */
+.dish {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  background: color-mix(in oklab, var(--card), transparent 8%);
+  width: 300px;
+}
+
+.dish .meta { font-size: 0.9rem; color: var(--muted); }
+.dish .actions { display: flex; gap: 6px; }
+.dish .actions button { padding: 8px 10px; font-size: 0.9rem; }
+
+.fave { color: #f59e0b; }
+
+/* Per-meal ingredients card */
+.card.ingredients ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.card.ingredients li {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  background: color-mix(in oklab, var(--card), transparent 6%);
+  font-size: 0.95rem;
+}
+
+/* =====================
+   Weekly aggregated Shopping list (bottom section)
+   ===================== */
+#shoppingList { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-2); }
+#shoppingList li {
+  border: 1px solid var(--border);
+  background: color-mix(in oklab, var(--card), transparent 6%);
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 160ms ease, opacity 160ms ease, text-decoration-color 160ms ease;
+}
+#shoppingList li::before { content: ""; width: 16px; height: 16px; border-radius: 6px; border: 1.5px solid var(--border); display: inline-block; }
+#shoppingList li.done { text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: color-mix(in oklab, var(--primary), transparent 40%); opacity: 0.6; }
+#shoppingList li.done::before { background: var(--primary); border-color: var(--primary); }
+
+/* =====================
+   Footer spacer
+   ===================== */
+.footer { height: 14vh; }
+
+/* =====================
+   Utilities & animations
+   ===================== */
+.hidden { display: none !important; }
+.muted { color: var(--muted); }
+.center { text-align: center; }
+
+@keyframes popIn { from { transform: scale(0.98); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.card, .dish, #shoppingList li { animation: popIn 180ms ease-out; }
+
+/* =====================
+   Accessibility
+   ===================== */
+:focus-visible { outline: none; box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary), transparent 75%); }
+
+/* Improve hit targets on small screens */
+@media (max-width: 520px) { button, select, input[type="number"] { padding: 12px 14px; } }
+
+/* =====================
+   Print-friendly list (optional)
+   ===================== */
+@media print {
+  header, .grid, .footer, .small, .ghost, .primary { display: none !important; }
+  section.card { box-shadow: none; border: none; }
+  body { background: #fff; color: #000; }
+  #shoppingList { grid-template-columns: repeat(2, 1fr); }
+}
+
